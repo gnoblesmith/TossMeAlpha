@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+    
+  	<TextView
+        android:id="@+id/xacc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/x_acc_default" />
+    
+	<TextView
+        android:id="@+id/yacc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/y_acc_default" />  
+          
+	<TextView
+        android:id="@+id/zacc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/z_acc_default" />
+	
+	<TextView
+        android:id="@+id/xvel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/x_vel_default" />
+    
+	<TextView
+        android:id="@+id/yvel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/y_vel_default" />  
+          
+	<TextView
+        android:id="@+id/zvel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/z_vel_default" />
+	
+	<TextView
+        android:id="@+id/xpos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/x_pos_default" />
+    
+	<TextView
+        android:id="@+id/ypos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/y_pos_default" />  
+          
+	<TextView
+        android:id="@+id/zpos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/z_pos_default" />
+
+	
+	<TextView
+	    android:id="@+id/debugTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/DebugTVText"/>	
+        		
+	<Button 
+	    android:id="@+id/calibrateButton"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:text="@string/CalibrateButtonText"/>
+                 		
+	<Button 
+	    android:id="@+id/resetButton"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:text="@string/ResetButtonText"/>
+
+
+</LinearLayout>
