@@ -5,21 +5,20 @@ public class Integrator {
 	private double lastVal;
 	
 	private boolean firstSample;
-	private double out;
+	public double out;
 	
 	public Integrator () {
 		out = 0.0;
 		firstSample = true;
 	}
 	
-	public double integrate (double t, double val) {
+	public double integrate (double dt, double val) {
 		if (!firstSample) {
-			out += (val + lastVal)/2 * (t - lastT); // trapezoidal approximation
+			out += (val + lastVal)*dt/2; // trapezoidal approximation
 		} else {
 			firstSample = false;
 		}
 		lastVal = val;
-		lastT = t;
 		
 		return out;
 	}

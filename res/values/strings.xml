@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Accelerometer2</string>
+    <string name="app_name">Toss Me!</string>
     <string name="hello_world">Hello world!</string>
     <string name="x_acc_default">X Acceleration here</string>
     <string name="y_acc_default">Y Acceleration here</string>
@@ -13,6 +13,7 @@
     <string name="y_pos_default">Y Position here</string>
     <string name="z_pos_default">Z Position here</string>
     <string name="CalibrateButtonText">Calibrate</string>
+    <string name="goButtonText">Go</string>
     <string name="ResetButtonText">Reset</string>
     <string name="DebugTVText">Debug</string>
 </resources>

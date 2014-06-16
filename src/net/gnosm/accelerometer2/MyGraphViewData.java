@@ -11,6 +11,11 @@ public class MyGraphViewData implements GraphViewDataInterface {
 		this.y = y;
 	}
 	
+	public MyGraphViewData(MyGraphViewData other) {
+		this.x = other.x;
+		this.y = other.y;
+	}
+	
 	@Override
 	public double getX() {
 		return x;
